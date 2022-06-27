@@ -1,7 +1,6 @@
-import { FallbackProps } from '@specfocus/view-focus/errors/fallback';
-import { TitleComponent } from '@specfocus/view-focus/types';
+import { FallbackProps } from '@specfocus/view-focus.notification/errors/fallback';
 import PropTypes from 'prop-types';
-import { ComponentType, ErrorInfo, HtmlHTMLAttributes } from 'react';
+import { ComponentType, ErrorInfo, HtmlHTMLAttributes, ReactElement } from 'react';
 export declare const Error: {
     (props: InternalErrorProps & {
         errorComponent?: ComponentType<ErrorProps>;
@@ -16,6 +15,7 @@ export declare const Error: {
 interface InternalErrorProps extends Omit<HtmlHTMLAttributes<HTMLDivElement>, 'title'>, FallbackProps, ErrorProps {
     className?: string;
 }
+export type TitleComponent = string | ReactElement<any>;
 export interface ErrorProps extends Pick<FallbackProps, 'error'> {
     errorInfo?: ErrorInfo;
     title?: TitleComponent;
