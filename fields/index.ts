@@ -27,7 +27,7 @@ import type {
   InternalFieldErrors as InternalFieldErrorsSpec
 } from '@specfocus/spec-focus/fields/errors';
 
-export { FieldRefs, FieldArray, FieldArrayPath, FieldValue, FieldValues, FieldElement };
+export type { FieldRefs, FieldArray, FieldArrayPath, FieldValue, FieldValues, FieldElement };
 
 export type Ref = FieldElement;
 export type Field = FieldSpec<Ref>;

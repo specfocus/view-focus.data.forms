@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/view-focus.forms",
   "description": "React generic forms",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "private": true,
   "repository": {
     "type": "git",
