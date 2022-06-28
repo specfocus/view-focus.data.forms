@@ -1,14 +1,13 @@
 {
   "name": "@specfocus/view-focus.forms",
   "description": "React generic forms",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/specfocus/view-focus.forms.git"
   },
   "author": "Lucas M. Oromi",
-  "main": "index.js",
   "scripts": {
     "prebuild-skip": "tslint -c tslint.json -p tsconfig.json --fix",
     "clean": "rimraf dist",
