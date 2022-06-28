@@ -2,7 +2,7 @@ import {
   ValidationErrorMessage,
   ValidationErrorMessageWithArgs,
 } from './validate';
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 
 /**
  * This internal hook returns a function that can translate an error message.

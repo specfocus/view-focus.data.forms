@@ -1,4 +1,4 @@
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 import { NavigationContext } from '@specfocus/view-focus.navigation/routes/Navigation';
 import { useLocation } from '@specfocus/view-focus.navigation/routes/useLocation';
 import { History, Transition } from 'history';
